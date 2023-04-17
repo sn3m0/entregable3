@@ -18,9 +18,63 @@
       "stock": 15
     },
     {
-      "id": 3,
-      "title": "Producto 3",
-      "description": "Este es el producto 3",
+      "id": 4,
+      "title": "Producto 4",
+      "description": "Este es el producto 4",
+      "price": 30,
+      "thumbnail": "https://coderhouse.com",
+      "code": "P0003",
+      "stock": 10
+    }
+    {
+      "id": 5,
+      "title": "Producto 5",
+      "description": "Este es el producto 5",
+      "price": 10,
+      "thumbnail": "https://coderhouse.com",
+      "code": "P0001",
+      "stock": 20
+    },
+    {
+      "id": 6,
+      "title": "Producto 6",
+      "description": "Este es el producto 6",
+      "price": 20,
+      "thumbnail": "https://coderhouse.com",
+      "code": "P0002",
+      "stock": 15
+    },
+    {
+      "id": 7,
+      "title": "Producto 7",
+      "description": "Este es el producto 7",
+      "price": 30,
+      "thumbnail": "https://coderhouse.com",
+      "code": "P0003",
+      "stock": 10
+    }
+{
+      "id": 8,
+      "title": "Producto 8",
+      "description": "Este es el producto 8",
+      "price": 10,
+      "thumbnail": "https://coderhouse.com",
+      "code": "P0001",
+      "stock": 20
+    },
+    {
+      "id": 9,
+      "title": "Producto 9",
+      "description": "Este es el producto 9",
+      "price": 20,
+      "thumbnail": "https://coderhouse.com",
+      "code": "P0002",
+      "stock": 15
+    },
+    {
+      "id": 10,
+      "title": "Producto 10",
+      "description": "Este es el producto 10",
       "price": 30,
       "thumbnail": "https://coderhouse.com",
       "code": "P0003",
