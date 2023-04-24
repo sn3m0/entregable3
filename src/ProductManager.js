@@ -2,7 +2,7 @@ import { promises as fs } from 'fs';
 
 class ProductManager {
   constructor() {
-    this.filePath = './products.json';
+    this.filePath = './src/products.json';
   }
 
   async getProducts() {
@@ -28,12 +28,10 @@ class ProductManager {
 
   async getProductById(id) {
     const products = await this.getProducts();
-    const product = products.find((p) => p.id === id);
-    if (!product) {
-      throw new Error(`Product with id ${id} not found`);
-    }
+    const product = products.find(p => p.id === parseInt(id));
     return product;
-  }
+}
+
 
   async updateProduct(id, fieldsToUpdate) {
     const products = await this.getProducts();
