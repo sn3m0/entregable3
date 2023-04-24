@@ -16,7 +16,7 @@ app.get('/products', async (req, res) => {
 });
 
 app.get('/products/:pid', async (req, res) => {
-  const pid = req.params.pid;
+  const pid = parseInt(req.params.pid);
   const productManager = new ProductManager();
   const product = await productManager.getProductById(pid);
   if (product) {
